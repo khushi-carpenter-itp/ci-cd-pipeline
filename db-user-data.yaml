@@ -1,0 +1,5 @@
+#cloud-config
+packages:
+  - mysql-server
+runcmd:
+  - sudo systemctl status mysql
